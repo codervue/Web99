@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+	width:100px;
+	height:100px;
+	background:red;
+	position:relative;
+	animation:myAnimation 4s infinite; /*动画名字，持续时间，是否一直播放动画*/
+	animation-direction:alternate; /*动画播放完后是否方向播放*/
+}
+
+@keyframes myAnimation  {  /*自定义的动画名字*/
+	0%   {background:red; left:0px; top:0px;}
+	25%  {background:yellow; left:200px; top:0px;}
+	50%  {background:blue; left:200px; top:200px;}
+	75%  {background:green; left:0px; top:200px;}
+	100% {background:red; left:0px; top:0px;}
+}
+</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
