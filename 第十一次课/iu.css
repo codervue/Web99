@@ -1,0 +1,18 @@
+  body{
+            background-color: darkblue;
+        }
+        .box1{
+            background-color: cyan;
+             width: 1000px;
+			 height: 500px;
+			 margin: 200px;
+			 position: relative;
+			
+           
+        }
+        .box2 {
+			background-color: #000000;
+			width: 100px;
+			height: 100px;
+			margin: 100px;
+			position: relative;
